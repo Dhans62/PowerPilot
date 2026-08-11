@@ -1,0 +1,5 @@
+# Build output — the .exe belongs in GitHub Releases, not in the repo history.
+# Committing binaries bloats repo size permanently since git never forgets them.
+*.exe
+*.o
+*.obj
